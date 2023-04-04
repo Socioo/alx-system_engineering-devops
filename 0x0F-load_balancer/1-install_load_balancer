@@ -11,7 +11,7 @@ frontend aabdul
     default_backend app
 backend app
     balance roundrobin
-    server 6369-web-01 3.235.239.225:80 check
-    server 6369-web-02 35.170.64.18:80 check" >> /etc/haproxy/haproxy.cfg
+    server 136082-web-01 54.209.183.230:80 check
+    server 136082-web-02 34.203.75.80:80 check" >> /etc/haproxy/haproxy.cfg
 
 sudo service haproxy restart
