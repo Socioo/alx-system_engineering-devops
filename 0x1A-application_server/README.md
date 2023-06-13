@@ -9,7 +9,7 @@ Upstart script to keep the application running on server reboots.
 
 * **0. Set up development with Python**
   * In this task, I configured the file `web_flask/0-hello_route.py` from my
-  [AirBnB_clone_v2](https://github.com/ahmadabdul592/AirBnB_clone_v2) to serve content
+  [AirBnB_clone_v2](https://github.com/Socioo/AirBnB_clone_v2) to serve content
   on the route `/airbnb-onepage/`, running on port `5000`.
 
 * **1. Set up production with Gunicorn**
@@ -27,12 +27,12 @@ Upstart script to keep the application running on server reboots.
   Gunicorn app running on port `5000`.
 
 * **4. Let's do this for your API**
-  * In this task, I configured the API from my [AirBnB_clone_v3](./https://github.com/ahmadabdul592/AirBnB_clone_v3) to run on Gunicorn.
+  * In this task, I configured the API from my [AirBnB_clone_v3](./https://github.com/Socioo/AirBnB_clone_v3) to run on Gunicorn.
   * [4-app_server-nginx_config](./4-app_server-nginx_config): Nginx configuration file
   that proxies requests on the AirBnB API to the corresponding Gunicorn app.
 
 * **5. Serve your AirBnB clone**
-  * In this task, I configured the complete AirBnB app from [AirBnB_clone_v4](https://github.com/ahmadabdul592/AirBnB_clone_v4) to run on Gunicorn and be served through Nginx.
+  * In this task, I configured the complete AirBnB app from [AirBnB_clone_v4](https://github.com/Socioo/AirBnB_clone_v4) to run on Gunicorn and be served through Nginx.
   * [5-app_server-nginx_config](./5-app_server-nginx_config): Nginx configuration file
   configured to serve the static assets from `web_dynamic/static/` on the Gunicorn AirBnB
   app.
@@ -50,7 +50,7 @@ Upstart script to keep the application running on server reboots.
 
 ## Authors :black_nib:
 
-- [Abdul Ahmed Abdul](https://www.linkedin.com/in/abdul-ahmad-38942b99) | [Twitter](https://twitter.com/abdulahmad829) | [GitHub](https://github.com/ahmadabdul59)
+- [Ahmad Badamasi](https://www.https://www.linkedin.com/in/ahmad-badamasi-a10029250) | [Twitter](https://twitter.com/abdulahmad829) | [GitHub](https://github.com/Socioo)
 
 
 
